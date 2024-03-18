@@ -1,4 +1,5 @@
-##Weather Forecast
+Weather Forecast
+
 App built using Kotlin using the following technologies:
 1- Kotlin
 2- MVVM design pattern
@@ -10,4 +11,5 @@ App built using Kotlin using the following technologies:
 8- Retrofit 2
 9- Dagger-Hilt
 
-![image](https://github.com/omarAhmed22600/WeatherForecast/assets/96152606/d7710395-c94e-4e5a-af97-2cd06ae04474)
+![image](https://github.com/omarAhmed22600/WeatherForecast/assets/96152606/367b5787-a18e-4dd3-af06-d838eea388af)
+
