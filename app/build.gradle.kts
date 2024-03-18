@@ -1,8 +1,8 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
-    id("kotlin-kapt")
-    id("com.google.dagger.hilt.android") version "2.44" apply false
+    kotlin("kapt")
+    id("dagger.hilt.android.plugin")
 
 }
 
@@ -66,10 +66,11 @@ dependencies {
     implementation("androidx.activity:activity-ktx:1.8.2")
 
     //dagger-hilt
-    implementation("com.google.dagger:hilt-android:2.44")
-    kapt("com.google.dagger:hilt-android-compiler:2.44")
-    implementation("androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha03")
-    kapt("androidx.hilt:hilt-compiler:1.2.0")
+    implementation("com.google.dagger:hilt-android:2.51")
+    kapt("com.google.dagger:hilt-android-compiler:2.51")
 
 
+}
+kapt {
+    correctErrorTypes = true
 }
