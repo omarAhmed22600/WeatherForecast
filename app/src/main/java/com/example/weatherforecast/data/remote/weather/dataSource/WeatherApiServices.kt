@@ -6,7 +6,7 @@ import retrofit2.Response
 import retrofit2.http.GET
 
 interface WeatherApiServices {
-    @GET("${APIConstants.QUERY_GET_WEATHER_DATA}/Luanda")
+    @GET("${APIConstants.QUERY_GET_WEATHER_DATA}/cairo")
     suspend fun getWeather(): Response<WeatherResponse>
 
 }
